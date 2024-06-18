@@ -1,5 +1,4 @@
-import pytest
-from implementation.rick_morty_character import RMCharacters
+from implementation.rest.rick_morty_character import RMCharacters
 
 rmc = RMCharacters()
 
