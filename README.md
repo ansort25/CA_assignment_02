@@ -15,10 +15,11 @@ Please share a link to the project (Google Drive with packages or even better Gi
 
 ---
 
-Run on Python3.12. Pytest and pytest-reporter-html1. As a reporting tool pytest-reporter could be used to create custom templates with Jinja2
+Run on Python3.12.
+Pytest and pytest-reporter-html1. As a reporting tool pytest-reporter could be used to create custom templates with Jinja2
 
 Steps to setup project:
-- install requirements.txt running in terminal `pip install -r requirements.txt`
+- install requirements.txt by running in terminal `pip install -r requirements.txt`
 
 To run tests:
 - run `pytest .\tests\ --template=html1/index.html --report=report.html`
